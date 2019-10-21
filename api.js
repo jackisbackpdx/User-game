@@ -1,11 +1,11 @@
 const dungeon = {
-    id: 'Dungeon',
+    id: 'dungeon',
     title: 'Dungeon of Monsters',
     map: {
         top: '89%',
         left: '44%',
     },
-    image: './assets/dungeon.jpg',
+    image: 'dungeon.jpg',
     audio: '',
     action: '',
     description: `
@@ -40,13 +40,13 @@ const dungeon = {
 };
 
 const skyWorld = {
-    id: 'sky world',
+    id: 'skyworld',
     title: 'SkyWorld',
     map: {
         top: '57%',
         left: '67%',
     },
-    image: './assets.cloudworld.jpg',
+    image: 'cloudworld.jpg',
     audio: '',
     action: '',
     description: `
@@ -79,13 +79,13 @@ const skyWorld = {
 };
 
 const digitalWorld = {
-    id: 'Digital World',
+    id: 'Digitalworld',
     title: 'Digital World',
     map: {
         top: '31%',
         left: '5%',
     },
-    image: './grid.jpg',
+    image: 'grid.jpg',
     audio: 'pacman_x.wav',
     action: 'Metroid_Door-Brandino480-995195341.wav',
     description: 'You now live only in the digital world, Big Data got you.',

@@ -1,4 +1,4 @@
-import { scoreHp } from '../scorehp.js';
+import { scoreHp } from '../results/scorehp.js';
 // IMPORT MODULES under test here:
 // import example from '../src/example.js';
 
