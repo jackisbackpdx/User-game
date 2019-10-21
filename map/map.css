@@ -1,0 +1,17 @@
+#quests {
+    position: relative;
+    background-image: url("../assets/map.jpg");
+    background-size: fill;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: calc(80vw * 642 / 900);
+}
+
+.quest.completed {
+    color: whitesmoke;
+    font-size: .9em;
+}
+
+.quest.completed:after {
+    content: ' ✔';
+}
