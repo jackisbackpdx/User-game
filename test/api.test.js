@@ -9,7 +9,7 @@ QUnit.testStart(() => {
 });
 
 test('saveUser sets user and returns on getUser, same object key-values from local storage', (assert) => {
-    // arrange
+
     const user = { 
         name: 'Leef',
         character: 'spirit',
@@ -17,10 +17,9 @@ test('saveUser sets user and returns on getUser, same object key-values from loc
         gold: 1000000
     };
 
-    // act
     saveUser(user);
     const result = getUser();
 
-    // assert
+
     assert.deepEqual(result, user);
 });

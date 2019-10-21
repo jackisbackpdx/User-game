@@ -12,7 +12,12 @@
   <body>
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
+    <script>
+        Object.defineProperty(window, 'localStorage', {
+            value: window.sessionStorage,
+        });
+      </script>
     <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
-    <script type="module" src="tests.test.js"></script>
+    <script type="module" src="tests.js"></script>
   </body>
 </html>
