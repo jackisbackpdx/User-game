@@ -1,11 +1,10 @@
 #quests {
     position: relative;
     background-image: url("../assets/map.jpg");
-    background-size: contain;
+    background-size: fill;
     background-repeat: no-repeat;
     width: 80vw;
     height: calc(80vw * 642 / 900);
-    margin: auto;
 }
 
 .quest.completed {
@@ -15,8 +14,4 @@
 
 .quest.completed:after {
     content: ' ✔';
-}
-img {
-    display: block;
-    margin: 0 auto;
 }

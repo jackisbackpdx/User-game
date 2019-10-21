@@ -5,8 +5,8 @@ function hasCompletedAllQuests(quests, user) {
         if (!user.completed[quest.id]) {
             return false;
         }
-        return true;
     }
+    return true;
 }
 
 export default hasCompletedAllQuests;
